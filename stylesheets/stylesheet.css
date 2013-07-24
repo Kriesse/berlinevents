@@ -51,6 +51,7 @@ body {
   font-size: 1em;
   line-height: 1.5;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  background-color: #eaeaea;
 }
 
 header, main, footer {
@@ -77,7 +78,7 @@ header, footer {
   margin: 1.5em 2%;
   vertical-align: top;
   list-style: none;
-  background: #0FF;
+  background-color: #FFF;
 }
 
 a {
