@@ -55,7 +55,7 @@ body {
 
 header, main, footer {
   width: 96%;
-  max-width: 720px;
+  max-width: 1200px;
   margin: 2em auto;
   padding: 1em 2%;
 }
@@ -64,10 +64,20 @@ header, footer {
   text-align: center;
 }
 
+.event_list {
+  text-align: center;
+}
+
 .event_list > li {
-  margin-bottom: 1.5em;
-  padding: 0;
+  display: inline-block;
+  width: 18%;
+  max-width: 200px;
+  min-height: 12em;
+  padding: 2em;
+  margin: 1.5em 2%;
+  vertical-align: top;
   list-style: none;
+  background: #0FF;
 }
 
 a {
